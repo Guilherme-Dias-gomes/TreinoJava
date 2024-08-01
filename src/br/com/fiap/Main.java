@@ -1,9 +1,19 @@
 package br.com.fiap;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import br.com.fiap.model.Aluno;
+import br.com.fiap.model.Pessoa;
+import br.com.fiap.model.Produto;
+import br.com.fiap.model.ProdutoEletronico;
+
 public class Main {
     public static void main(String[] args) {
-           System.out.println("Olá mundo!");
-        }
+
+        Produto produto = new Produto("Camiseta", 50);
+
+        ProdutoEletronico eletronico = new ProdutoEletronico("Celular", 1200, true);
+
+        System.out.println(produto);
+        System.out.println(eletronico);
+
+    }
 }

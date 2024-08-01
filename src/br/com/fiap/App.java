@@ -16,5 +16,7 @@ public class App {
         System.out.println("Placa de Vídeo Dedicada: " + note.placaVideoDedicada);
         System.out.println("Fabricante: " + note.fabricante);
 
+
+
     }
 }
